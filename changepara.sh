@@ -93,7 +93,7 @@ version=$(echo "$release_files" | head -n1 | cut -d'-' -f2)
 os=$release_os
 architecture=$release_arch
 
-chmod +x node-$version-prerelease-$os-$architecture
+chmod +x ~/ceremonyclient/node/node-$version-prerelease-$os-$architecture
 
 service para start
 
